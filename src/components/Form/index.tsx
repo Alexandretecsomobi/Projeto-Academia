@@ -38,6 +38,7 @@ const useStyles = createUseStyles({
     },
     link:{
         color:"#2d2d2d",
+        marginTop:'10px'
     }
     
 })
@@ -62,7 +63,7 @@ const Form = ({type}:FormOptions)=>{
                   <input className={input} type='password' name='password'  placeholder='Digite novamente a senha'></input>
                   </div>
                   <button className={buttonsubmit} type='submit'>Finalizar</button>
-                  <Link className={link} to={'/login'}>Fazer login</Link>
+                  <Link className={link} to={'/login'}>fazer login</Link>
                 </div>
                 :
                 <div style={{width:'100%',display:"flex",flexDirection:"column",alignItems:"center"}}>
